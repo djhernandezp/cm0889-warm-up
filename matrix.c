@@ -99,6 +99,18 @@ int main (){
 		system ("pause");
 		printf ("\n\n\n");
 		
+		printf ("Luego, la diagonal de la matriz es: ");
+		
+		printf ("\n\n\n");
+		
+		for (c=0, f=0; c<i && f==c; c++,f++){
+			printf ("%i\t" , matriz[c][f]);
+		}
+		
+		printf ("\n");
+		system ("pause");
+		printf ("\n\n\n");
+		
 		printf ("Luego, la anti-diagonal de la matriz es: ");
 		
 		printf ("\n\n\n");
